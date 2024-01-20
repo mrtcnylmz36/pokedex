@@ -25,6 +25,7 @@ const getAllPokemons = async (offset: number): Promise<PokemonData> => {
   } catch (error) {
     console.error("An error occurred:", error);
     throw new Error("Pokemons couldn't be fetched");
+    
   }
 };
 
